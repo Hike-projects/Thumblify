@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thumbnails</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Font Awesome for icons -->
+</head>
+<body>
+
+    <header>
+        <h1>Thumbnails</h1>
+    </header>
+
+    <section class="thumbnail-grid">
+        <!-- Thumbnail Item 1 -->
+        <div class="thumbnail-item">
+            <div class="thumbnail-preview">
+                <img src="https://img.youtube.com/vi/dQw4w9WgXcQ/hqdefault.jpg" alt="Thumbnail 1">
+            </div>
+            <div class="thumbnail-info">
+                <h3 class="video-title">Rick Astley - Never Gonna Give You Up</h3>
+                <p class="size-details">Thumbnail Size: 120KB</p>
+            </div>
+            <button class="download-btn" onclick="downloadThumbnail('https://img.youtube.com/vi/dQw4w9WgXcQ/hqdefault.jpg')">
+                <i class="fas fa-download"></i> Download
+            </button>
+        </div>
+
+        <!-- Thumbnail Item 2 -->
+        <div class="thumbnail-item">
+            <div class="thumbnail-preview">
+                <img src="https://img.youtube.com/vi/3JZ_D3ELwOQ/hqdefault.jpg" alt="Thumbnail 2">
+            </div>
+            <div class="thumbnail-info">
+                <h3 class="video-title">Shakira - Waka Waka</h3>
+                <p class="size-details">Thumbnail Size: 110KB</p>
+            </div>
+            <button class="download-btn" onclick="downloadThumbnail('https://img.youtube.com/vi/3JZ_D3ELwOQ/hqdefault.jpg')">
+                <i class="fas fa-download"></i> Download
+            </button>
+        </div>
+
+        <!-- Thumbnail Item 3 -->
+        <div class="thumbnail-item">
+            <div class="thumbnail-preview">
+                <img src="https://img.youtube.com/vi/tgbNymZ7vqY/hqdefault.jpg" alt="Thumbnail 3">
+            </div>
+            <div class="thumbnail-info">
+                <h3 class="video-title">Justin Bieber - Baby</h3>
+                <p class="size-details">Thumbnail Size: 125KB</p>
+            </div>
+            <button class="download-btn" onclick="downloadThumbnail('https://img.youtube.com/vi/tgbNymZ7vqY/hqdefault.jpg')">
+                <i class="fas fa-download"></i> Download
+            </button>
+        </div>
+
+        <!-- Thumbnail Item 4 -->
+        <div class="thumbnail-item">
+            <div class="thumbnail-preview">
+                <img src="https://img.youtube.com/vi/L_jWHfn_7WU/hqdefault.jpg" alt="Thumbnail 4">
+            </div>
+            <div class="thumbnail-info">
+                <h3 class="video-title">Katy Perry - Roar</h3>
+                <p class="size-details">Thumbnail Size: 130KB</p>
+            </div>
+            <button class="download-btn" onclick="downloadThumbnail('https://img.youtube.com/vi/L_jWHfn_7WU/hqdefault.jpg')">
+                <i class="fas fa-download"></i> Download
+            </button>
+        </div>
+
+        <!-- Thumbnail Item 5 -->
+        <div class="thumbnail-item">
+            <div class="thumbnail-preview">
+                <img src="https://img.youtube.com/vi/9bZkp7q19f0/hqdefault.jpg" alt="Thumbnail 5">
+            </div>
+            <div class="thumbnail-info">
+                <h3 class="video-title">PSY - Gangnam Style</h3>
+                <p class="size-details">Thumbnail Size: 140KB</p>
+            </div>
+            <button class="download-btn" onclick="downloadThumbnail('https://img.youtube.com/vi/9bZkp7q19f0/hqdefault.jpg')">
+                <i class="fas fa-download"></i> Download
+            </button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 Black Edition | Designed with passion for simplicity and elegance</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
